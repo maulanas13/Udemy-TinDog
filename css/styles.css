@@ -1,0 +1,231 @@
+/* GLOBAL (id's 1st, order A~Z) */
+
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+/* HEADINGS (id's 1st, order A~Z) */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* SECTIONS (id's 1st, order A~Z) */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* TITLE (id's 1st, order A~Z) */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* NAVIGATION BAR (id's 1st, order A~Z) */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* DOWNLOAD BUTTON (id's 1st, order A~Z) */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE (id's 1st, order A~Z) */
+
+.title-image {
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* FEATURES SECTION (id's 1st, order A~Z) */
+
+#features {
+  padding: 1% 1%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-item {
+  padding: 50px 125px;
+}
+
+.features-item i {
+  color: #ef8172;
+  /* font-size: 3.5rem; */
+  line-height: 1.6;
+}
+
+.features-item i:hover {
+  color: #ff4c68;
+}
+
+.features-item p {
+  color: #8f8f8f;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* TESTIMONIALS SECTION (id's 1st, order A~Z) */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.icon-override {
+  height: 40px;
+  width: 40px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* PRESS SECTION (id's 1st, order A~Z) */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* PRICING SECTION (id's 1st, order A~Z)*/
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  height: 400px;
+  overflow: auto;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* CTA SECTION (id's 1st, order A~Z) */
+#cta {
+  padding: 100px 0;
+}
+
+#cta h3 {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.4;
+  padding: 0 23%;
+}
+
+/* @media (min-width: 990px) {
+  #cta h3 {
+    padding: 0 23%;
+  }
+} */
+
+.cta-button {
+  margin: 40px 10px 0;
+}
+
+/* FOOTER SECTION (id's 1st, order A~Z) */
+
+.footer-container {
+  padding: 100px 0;
+}
+
+#footer p {
+  color: #8f8f8f;
+  margin-top: 15px;
+}
+
+#footer i {
+  padding: 0 10px;
+}
+
+/* Order based on icon list */
+.twt:hover {
+  color: #1DA1F2;
+}
+
+.fb:hover {
+  color: #4267B2;
+}
+
+.ig:hover {
+  color: #4c68d7;
+}
+
+.mail:hover {
+  color: #0F9D58;
+}
